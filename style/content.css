@@ -1,0 +1,210 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+}
+
+.cont1 {
+    background-color: hsl(31, 77%, 52%);
+    height: 490px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cont2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cont3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-container img {
+    margin-top: 50px;
+    margin-left: 50px
+}
+
+.text-sedans,
+.text-suv,
+.text-luxury {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    color: white;
+    margin-bottom: 25px
+}
+
+.para1,
+.para2,
+.para3 {
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    width: 210px;
+    margin-left: 50px;
+    margin-top: 0px;
+    line-height: 25px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.learn-more,
+.learn-more2,
+.learn-more3 {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 50px;
+    margin-top: 70px;
+    cursor: pointer
+}
+
+.learn-more {
+    color: hsl(31, 77%, 52%);
+}
+
+.learn-more2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.learn-more3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.learn-more:hover,
+.learn-more2:hover,
+.learn-more3:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 310px;
+    }
+
+    .cont1 {
+        background-color: hsl(31, 77%, 52%);
+        height: 430px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px
+    }
+
+    .cont2 {
+        background-color: hsl(184, 100%, 22%);
+        height: 430px
+    }
+
+    .cont3 {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 430px
+    }
+
+    .main-container img {
+        margin-top: 50px;
+        margin-left: 50px
+    }
+
+    .text-sedans,
+    .text-suv,
+    .text-luxury {
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-left: 50px;
+        color: white;
+        margin-bottom: 25px
+    }
+
+    .para1 {
+        display: inline-block;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        width: 240px;
+        margin-left: 50px;
+        margin-top: 0px;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75)
+    }
+
+    .para2 {
+        display: inline-block;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        width: 240px;
+        margin-left: 50px;
+        margin-top: 0px;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75)
+    }
+
+    .para3 {
+        display: inline-block;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        width: 230px;
+        margin-left: 50px;
+        margin-top: 0px;
+        line-height: 25px;
+        color: hsla(0, 0%, 100%, 0.75)
+    }
+
+    .learn-more {
+        border: none;
+        padding: 12px 24px;
+        border-radius: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-left: 50px;
+        margin-top: 12px;
+        cursor: pointer
+    }
+
+    .learn-more2 {
+        border: none;
+        padding: 12px 24px;
+        border-radius: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-left: 50px;
+        margin-top: 12px;
+        cursor: pointer
+    }
+
+    .learn-more3 {
+        border: none;
+        padding: 12px 24px;
+        border-radius: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-left: 50px;
+        margin-top: 12px;
+        cursor: pointer
+    }
+
+    .learn-more {
+        color: hsl(31, 77%, 52%);
+    }
+
+    .learn-more2 {
+        color: hsl(184, 100%, 22%);
+    }
+
+    .learn-more3 {
+        color: hsl(179, 100%, 13%);
+    }
+
+    .learn-more:hover,
+    .learn-more2:hover,
+    .learn-more3:hover {
+        border: 2px solid white;
+        background-color: transparent;
+        color: white
+    }
+}
